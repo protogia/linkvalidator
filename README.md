@@ -1,4 +1,4 @@
-# urlpy: URL-Check-Utility
+# linkvalidator: URL-Check-Utility
 
 A python based utility to search, validate, calculate stats and export URLs. 
 
@@ -9,8 +9,8 @@ You can use this package with github-actions to check if links on your hosted we
 ## Install
 
 ```bash
-git submodule add . # or just git clone
-cd <>
+git clone https://github.com/protogia/linkvalidator.git
+cd linkvalidator
 poetry install
 ```
 
@@ -19,13 +19,13 @@ poetry install
 To parse all files in given directory recursively for URLs and print results:
 
 ```bash
-poetry run urlpy -d <path> 
+poetry run linkvalidator -d <path> 
 ```
 
 If you want to show only failures:
 
 ```bash
-poetry run urlpy -d <path> --only-failures
+poetry run linkvalidator -d <path> --only-failures
 ```
 
 
