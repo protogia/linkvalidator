@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "url-validation"
+name = "urlpy"
 version = "0.1.0"
 description = "Search for URL in files, validate them and list all status-codes"
 authors = ["protogia <goldengrizz01@gmail.com>"]
@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-url_validation = "url_validation.__main__:main"
+urlpy = "urlpy.__main__:main"
