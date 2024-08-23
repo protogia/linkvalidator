@@ -1,4 +1,4 @@
-# URL-Validator
+# urlpy: URL-Check-Utility
 
 A python based utility to search, validate, calculate stats and export URLs. 
 
@@ -19,13 +19,13 @@ poetry install
 To parse all files in given directory recursively for URLs and print results:
 
 ```bash
-poetry run url_validator -d <path> 
+poetry run urlpy -d <path> 
 ```
 
 If you want to show only failures:
 
 ```bash
-poetry run url_validator -d <path> --only-failures
+poetry run urlpy -d <path> --only-failures
 ```
 
 
