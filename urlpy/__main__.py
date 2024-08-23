@@ -131,7 +131,7 @@ def check_files_for_urls(file):
 
 def check_url(url):
     try:
-        response = requests.head(url, allow_redirects=True, timeout=10)
+        response = requests.head(url, allow_redirects=True, timeout=5)
         return response.status_code, response.reason
     except requests.RequestException as e:
         return None
