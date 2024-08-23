@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "urlpy"
+name = "linkvalidator"
 version = "0.1.0"
-description = "Search for URL in files, validate them and list all status-codes"
+description = "Search for URL in files, validate them and list all status-codes and statistics."
 authors = ["protogia <goldengrizz01@gmail.com>"]
 readme = "README.md"
 
@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-urlpy = "urlpy.__main__:main"
+linkvalidator = "linkvalidator.__main__:main"
