@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "linkvalidator"
+name = "LiVa"
 version = "0.1.0"
 description = "Search for URL in files, validate them and list all status-codes and statistics."
 authors = ["protogia <goldengrizz01@gmail.com>"]
@@ -21,4 +21,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-linkvalidator = "linkvalidator.__main__:main"
+liva = "liva.__main__:main"
